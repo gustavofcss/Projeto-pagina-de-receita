@@ -10,6 +10,10 @@
 
 body{
   background-color: rgb(221, 90, 90);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #page{
   width: 90%;  
@@ -19,6 +23,7 @@ body{
   background-color: white;
   border-radius: 24px;
   margin: 48px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -36,7 +41,14 @@ main{
 section + section {
   margin-top: 24px;
 }
+#about {
+  text-align: center; /* Centraliza o conteúdo de texto */
+  margin-bottom: 24px; /* Adiciona um espaçamento inferior */
+}
 
+#about p {
+  margin-top: 8px; /* Espaço entre parágrafos */
+}
 #about p + p {
   margin-top: 12px;
 }
